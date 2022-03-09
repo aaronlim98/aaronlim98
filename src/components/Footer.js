@@ -20,7 +20,7 @@ const Wrapper = styled.footer`
             text-align: center;
         }
       }
-`;
+`
 
 const Footer = () =>{
     return(

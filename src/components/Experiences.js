@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     @media (max-width: 900px) {
         flex-direction: column;
       }
-`;
+`
 
 const Title = styled.div`
     margin-bottom: 15px;
@@ -18,7 +18,7 @@ const Title = styled.div`
     @media (max-width: 900px) {
         width: 100%
       }
-`;
+`
 
 const Content = styled.div`
     margin-top: 8px;
@@ -28,10 +28,10 @@ const Content = styled.div`
         margin: 0px;
         width: 100%
       }
-`;
+`
 
 const Item = styled.div`
-`;
+`
 
 const ItemTitle = styled.div`
     display: flex;
@@ -49,26 +49,25 @@ const ItemTitle = styled.div`
         }
         flex-direction: column;
     }
-`;
+`
 
 const Role = styled.p`
     font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     line-height: 1rem;
-`;
+`
 
 const List = styled.ul`
     font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     margin-top: 15px;
     padding-left: 20px;
-`;
-
+`
 
 const ItemLine = styled.div`
     border-bottom: 1px solid #EFF0F1;
     margin: 30px 0px;
-`;
+`
 
 const Experiences = () => {
     return (

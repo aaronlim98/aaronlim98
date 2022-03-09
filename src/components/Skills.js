@@ -9,7 +9,7 @@ const Wrapper = styled.section`
     @media (max-width: 900px) {
         flex-direction: column;
       }
-`;
+`
 
 const Title = styled.div`
     margin-bottom: 15px;
@@ -18,7 +18,7 @@ const Title = styled.div`
     @media (max-width: 900px) {
         width: 100%
       }
-`;
+`
 
 const Content = styled.div`
     width: 70%;
@@ -35,17 +35,17 @@ const Content = styled.div`
     @media screen and (max-width: 768px){
         grid-template-columns: repeat(2, 1fr);
     }      
-`;
+`
 
 const Item = styled.div`
-`;
+`
 
 const List = styled.ul`
     font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     margin-top: 6px;
     padding-left: 20px;
-`;
+`
 
 const Skills = () => {
     return (

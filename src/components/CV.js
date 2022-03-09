@@ -5,14 +5,13 @@ const Wrapper = styled.section`
     padding: 0px 0px;
     display: flex;
     justify-content: center;
-`;
+`
 
 const Button = styled.a`
     color: inherit;
     border-bottom: 1px dashed #6C757C;
     text-decoration: none;
-`;
-
+`
 
 const CV = () => {
     return(

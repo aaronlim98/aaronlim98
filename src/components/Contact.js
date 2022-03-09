@@ -11,7 +11,7 @@ const Wrapper = styled.section`
         line-height: 1.2;
         margin-bottom: 15px;
     }
-`;
+`
 
 const FontBold = styled.span`
     font-weight: ${({theme}) => theme.fontWeight.semibold};
