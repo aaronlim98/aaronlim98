@@ -41,7 +41,7 @@ const Item = styled.div`
 `;
 
 const List = styled.ul`
-    font-size: ${props => props.theme.fontSize.sm};
+    font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     margin-top: 6px;
     padding-left: 20px;

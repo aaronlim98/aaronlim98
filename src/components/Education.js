@@ -39,7 +39,7 @@ const ItemTitle = styled.div`
     justify-content: space-between;
     margin-bottom: 6px;
     h3, p{
-        font-size: ${props => props.theme.fontSize.base};
+        font-size: ${({theme}) => theme.fontSize.base};
         line-height: 1rem;
     }
 
@@ -52,13 +52,13 @@ const ItemTitle = styled.div`
 `;
 
 const Role = styled.p`
-    font-size: ${props => props.theme.fontSize.sm};
+    font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     line-height: 1rem;
 `;
 
 const List = styled.ul`
-    font-size: ${props => props.theme.fontSize.sm};
+    font-size: ${({theme}) => theme.fontSize.sm};
     color: #6C757C;
     margin-top: 15px;
     padding-left: 20px;

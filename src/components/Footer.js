@@ -8,7 +8,7 @@ const Wrapper = styled.footer`
     margin: 15px 0px;
 
     p{
-        font-size: ${props => props.theme.fontSize.xs};
+        font-size: ${({theme}) => theme.fontSize.xs};
         color: #6C757C;
     }
 

@@ -7,14 +7,14 @@ const Wrapper = styled.section`
     flex-direction: row;
 
     h2{
-        font-weight: ${props => props.theme.fontWeight.light};
+        font-weight: ${({theme}) => theme.fontWeight.light};
         line-height: 1.2;
         margin-bottom: 15px;
     }
 `;
 
 const FontBold = styled.span`
-    font-weight: ${props => props.theme.fontWeight.semibold};
+    font-weight: ${({theme}) => theme.fontWeight.semibold};
 `
 
 const Card = styled.div`
