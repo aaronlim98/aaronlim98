@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-      title: `Aaron Lim`,
-    siteUrl: `https://www.aaronlimchengkiat.com`
+    title: `Aaron Lim`,
+    description: ``,
+    author: ``,
   },
   plugins: [
-    "gatsby-plugin-styled-components", 
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-image", 
-    "gatsby-plugin-sharp",
+    `gatsby-plugin-styled-components`, 
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`, 
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
